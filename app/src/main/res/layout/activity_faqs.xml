@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- FAQs Header -->
+        <TextView
+            android:id="@+id/faqs_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frequently Asked Questions"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:textColor="#FFFFFF" />
+
+        <!-- FAQ 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. How do I create a new note?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To create a new note, simply click on the 'Add Note' button on the home screen, and you'll be directed to a page where you can enter your note's title, subtitle, and content."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#FFFFFF" />
+
+        <!-- FAQ 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Can I add reminders to my notes?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes, you can set a reminder for any note! Just open the note and select the 'Set Reminder' option to choose a date and time."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#FFFFFF" />
+
+        <!-- FAQ 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. How do I delete a note?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To delete a note, open the note you wish to remove, and tap the 'Delete' option in the settings menu. Confirm the action to delete it permanently."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#FFFFFF" />
+
+        <!-- FAQ 4 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Can I customize note colors based on priority levels?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes! You can customize the color of your notes to match their priority levels. By default, our app suggests a priority-based color scheme: red for high priority, yellow for medium priority, and green for low priority. However, you're free to set your own colors through the 'Tools Options' to suit your preferences."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#FFFFFF" />
+
+        <!-- FAQ 5 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. How do I add a URL link to my note?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You can easily add a clickable URL by typing or pasting the link directly into your note. It will automatically be formatted as a clickable link."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

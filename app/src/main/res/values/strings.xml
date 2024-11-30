@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Smart Notes</string>
+    <string name="my_notes">Smart Notes</string>
+    <string name="search_notes">Search notes</string>
+    <string name="note_title">Note Title</string>
+    <string name="note_subtitle">Note Subtitle</string>
+    <string name="type_your_note_here">Type your note here...</string>
+    <string name="miscellaneous">Miscellaneous</string>
+    <string name="pick_color">Pick Color</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_url">Add URL</string>
+    <string name="enter_url">Enter URL</string>
+    <string name="add">ADD</string>
+    <string name="cancel_dialog">CANCEL</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="do_you_want_to_proceed_with_deleting_this_note">Do you want to proceed with deleting this note?</string>
+    <string name="please_confirm_deletion_of_this_note">Please confirm deletion of this note.</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="Tools">Tools</string>
+    <string name="no_reminder_set">No reminder set</string>
+</resources>
